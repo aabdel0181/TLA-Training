@@ -1,0 +1,165 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.20 of Day Month 20?? (rev: 006fcfd)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 38 and seed -3397147065524930079 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 13276] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file D:\Ahmed\Documents\TLA-Training\DieHard\DieHard.tla (file:/d:/Ahmed/Documents/TLA-Training/DieHard/DieHard.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-7700712617871000061\Integers.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.242124/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-7700712617871000061\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.242124/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module DieHard
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2025-04-25 00:18:27)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2025-04-25 00:18:27.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant BigNot4 is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ big = 0
+/\ small = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <FillBig line 17, col 12 to line 18, col 28 of module DieHard>
+/\ big = 5
+/\ small = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <BigToSmall line 32, col 15 to line 36, col 33 of module DieHard>
+/\ big = 2
+/\ small = 3
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <EmptySmall line 20, col 15 to line 21, col 29 of module DieHard>
+/\ big = 2
+/\ small = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <BigToSmall line 32, col 15 to line 36, col 33 of module DieHard>
+/\ big = 0
+/\ small = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <FillBig line 17, col 12 to line 18, col 28 of module DieHard>
+/\ big = 5
+/\ small = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <BigToSmall line 32, col 15 to line 36, col 33 of module DieHard>
+/\ big = 4
+/\ small = 3
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2025-04-25 00:18:27
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 11, col 1 to line 11, col 4 of module DieHard>: 3:3
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 11, col 9 to line 12, col 20 of module DieHard: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<FillSmall line 14, col 1 to line 14, col 9 of module DieHard>: 2:24
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 14, col 14 to line 15, col 28 of module DieHard: 24
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<FillBig line 17, col 1 to line 17, col 7 of module DieHard>: 3:24
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 12 to line 18, col 28 of module DieHard: 24
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<EmptySmall line 20, col 1 to line 20, col 10 of module DieHard>: 1:20
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 15 to line 21, col 29 of module DieHard: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<EmptyBig line 23, col 1 to line 23, col 8 of module DieHard>: 1:18
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 13 to line 24, col 29 of module DieHard: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<SmallToBig line 26, col 1 to line 26, col 10 of module DieHard>: 3:18
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 18 to line 26, col 33 of module DieHard: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 21 to line 28, col 33 of module DieHard: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 21 to line 30, col 49 of module DieHard: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<BigToSmall line 32, col 1 to line 32, col 10 of module DieHard>: 3:18
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 18 to line 32, col 33 of module DieHard: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 21 to line 34, col 43 of module DieHard: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 24 to line 35, col 49 of module DieHard: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 35, col 33 to line 35, col 49 of module DieHard: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 24 to line 36, col 33 of module DieHard: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TypeOK line 6, col 1 to line 6, col 6 of module DieHard>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 6, col 11 to line 7, col 27 of module DieHard: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<BigNot4 line 9, col 1 to line 9, col 7 of module DieHard>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 9, col 12 to line 9, col 18 of module DieHard: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(7) at 2025-04-25 00:18:27: 73 states generated (10,186 s/min), 14 distinct states found (1,953 ds/min), 1 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+73 states generated, 14 distinct states found, 1 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 7.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 434ms at (2025-04-25 00:18:27)
+@!@!@ENDMSG 2186 @!@!@
