@@ -37,6 +37,12 @@ ResolveError(m, g) ==
     /\ gpuStatus[m][g] = "resolution_requested"
     /\ gpuStatus' = [gpuStatus EXCEPT ![m][g] = "resolved"]
 
+ResolvedUpdateHealth(m,g) == 
+    /\ m \in ConstMarketplaces
+    /\ g \in ConstcGPUs
+    /\ gpuStatus[m][g] = "resolved"
+    /\ gpuStatus' = [gpuStatus EXCEPT ![m][g] = "healthy"]
+
 EscalateError(m, g) ==
     /\ m \in ConstMarketplaces
     /\ g \in ConstcGPUs
