@@ -2,16 +2,16 @@
 TLC2 Version 2.20 of Day Month 20?? (rev: 21974dc)
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 81 and seed 7141481278790676608 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 30632] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 122 and seed 1830856452110245462 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 31084] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
 Parsing file D:\Ahmed\Documents\TLA-Training\EDRV2\EDRV2.tla (file:/d:/Ahmed/Documents/TLA-Training/EDRV2/EDRV2.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-1074251874569762812\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-1074251874569762812\FiniteSets.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-1074251874569762812\Sequences.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-1074251874569762812\TLC.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-5919203790540398149\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-5919203790540398149\FiniteSets.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-5919203790540398149\Sequences.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-5919203790540398149\TLC.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -21,7 +21,7 @@ Semantic processing of module EDRV2
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2025-05-04 04:02:31)
+Starting... (2025-05-04 04:32:41)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2212:0 @!@!@
 Implied-temporal checking--satisfiability problem has 16 branches.
@@ -30,22 +30,22 @@ Implied-temporal checking--satisfiability problem has 16 branches.
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
 @!@!@STARTMSG 2190:0 @!@!@
-Finished computing initial states: 1 distinct state generated at 2025-05-04 04:02:31.
+Finished computing initial states: 1 distinct state generated at 2025-05-04 04:32:43.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2192:0 @!@!@
-Checking 16 branches of temporal properties for the current state space with 21664 total distinct states at (2025-05-04 04:02:34)
+Checking 16 branches of temporal properties for the current state space with 18176 total distinct states at (2025-05-04 04:32:46)
 @!@!@ENDMSG 2192 @!@!@
 @!@!@STARTMSG 2267:0 @!@!@
-Finished checking temporal properties in 00s at 2025-05-04 04:02:35
+Finished checking temporal properties in 06min 21s at 2025-05-04 04:39:07
 @!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(10) at 2025-05-04 04:02:35: 3,112 states generated (3,112 s/min), 1,354 distinct states found (1,354 ds/min), 606 states left on queue.
+Progress(10) at 2025-05-04 04:39:07: 2,531 states generated (2,531 s/min), 1,137 distinct states found (1,137 ds/min), 528 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(27) at 2025-05-04 04:03:15: 75,537 states generated, 16,768 distinct states found, 0 states left on queue.
+Progress(27) at 2025-05-04 04:40:03: 75,537 states generated, 16,768 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2192:0 @!@!@
-Checking 16 branches of temporal properties for the complete state space with 268288 total distinct states at (2025-05-04 04:03:15)
+Checking 16 branches of temporal properties for the complete state space with 268288 total distinct states at (2025-05-04 04:40:03)
 @!@!@ENDMSG 2192 @!@!@
 @!@!@STARTMSG 2116:1 @!@!@
 Temporal properties were violated.
@@ -65,273 +65,170 @@ The following behavior constitutes a counter-example:
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-2: <DetectError("m1","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
+2: <DetectError("m1","g1") line 40, col 3 to line 44, col 51 of module EDRV2>
 /\ jobResults = <<>>
 /\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "healthy", g2 |-> "error_detected"],
+/\ gpuStatus = [ m1 |-> [g1 |-> "error_detected", g2 |-> "healthy"],
   m2 |-> [g1 |-> "healthy", g2 |-> "healthy"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-3: <DetectError("m2","g1") line 40, col 3 to line 44, col 51 of module EDRV2>
+3: <RequestResolution("m1","g1") line 48, col 3 to line 53, col 41 of module EDRV2>
 /\ jobResults = <<>>
 /\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "healthy", g2 |-> "error_detected"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "healthy"] ]
-/\ jobQueue = <<>>
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "healthy"] ]
+/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g1"]>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
 4: <DetectError("m2","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
 /\ jobResults = <<>>
 /\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "healthy", g2 |-> "error_detected"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "error_detected"] ]
-/\ jobQueue = <<>>
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "error_detected"] ]
+/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g1"]>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-5: <DetectError("m1","g1") line 40, col 3 to line 44, col 51 of module EDRV2>
+5: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
 /\ jobResults = <<>>
-/\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "error_detected", g2 |-> "error_detected"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "error_detected"] ]
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "error_detected"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
 6: <RequestResolution("m2","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
 /\ jobResults = <<>>
-/\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "error_detected", g2 |-> "error_detected"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
 /\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g2"]>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-7: <RequestResolution("m1","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
+7: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
 /\ jobResults = <<>>
-/\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
-/\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g2"], [marketplace |-> "m1", gpu |-> "g2"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-8: <RequestResolution("m1","g1") line 48, col 3 to line 53, col 41 of module EDRV2>
-/\ jobResults = <<>>
-/\ activeJobs = {}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
-/\ jobQueue = << [marketplace |-> "m2", gpu |-> "g2"],
-   [marketplace |-> "m1", gpu |-> "g2"],
-   [marketplace |-> "m1", gpu |-> "g1"] >>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-9: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<>>
-/\ activeJobs = {[marketplace |-> "m2", gpu |-> "g2", id |-> 1]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
-/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g2"], [marketplace |-> "m1", gpu |-> "g1"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-10: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<>>
-/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g2", id |-> 2],
-  [marketplace |-> "m2", gpu |-> "g2", id |-> 1] }
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
-/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g1"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-11: <CompleteJobSuccess line 70, col 3 to line 76, col 28 of module EDRV2>
-/\ jobResults = <<"success">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g2", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
-/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g1"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-12: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<"success">>
-/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 2],
-  [marketplace |-> "m1", gpu |-> "g2", id |-> 2] }
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
+/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 1],
+  [marketplace |-> "m2", gpu |-> "g2", id |-> 2] }
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-13: <CompleteJobFailure line 80, col 3 to line 86, col 28 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "escalated"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
+8: <CompleteJobFailure line 80, col 3 to line 86, col 28 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "escalated"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-14: <RecoverToHealthy("m2","g2") line 90, col 3 to line 94, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "escalated"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "healthy"] ]
+9: <ManualIntervention("m2","g2") line 98, col 3 to line 102, col 51 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolved"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-15: <RequestResolution("m2","g1") line 48, col 3 to line 53, col 41 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "escalated"],
-  m2 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"] ]
-/\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g1"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-16: <ManualIntervention("m1","g2") line 98, col 3 to line 102, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
-  m2 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"] ]
-/\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g1"]>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-17: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 2],
-  [marketplace |-> "m2", gpu |-> "g1", id |-> 2] }
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
-  m2 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"] ]
-/\ jobQueue = <<>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-18: <CompleteJobSuccess line 70, col 3 to line 76, col 28 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
-  m2 |-> [g1 |-> "resolved", g2 |-> "healthy"] ]
-/\ jobQueue = <<>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-19: <RecoverToHealthy("m2","g1") line 90, col 3 to line 94, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
+10: <RecoverToHealthy("m2","g2") line 90, col 3 to line 94, col 51 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
   m2 |-> [g1 |-> "healthy", g2 |-> "healthy"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-20: <DetectError("m2","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
+11: <DetectError("m2","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
   m2 |-> [g1 |-> "healthy", g2 |-> "error_detected"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-21: <DetectError("m2","g1") line 40, col 3 to line 44, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolved"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "error_detected"] ]
-/\ jobQueue = <<>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-22: <RecoverToHealthy("m1","g2") line 90, col 3 to line 94, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
+12: <RequestResolution("m2","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
 /\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "error_detected"] ]
-/\ jobQueue = <<>>
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-23: <RequestResolution("m2","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
 /\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g2"]>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-24: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 2],
+13: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 1],
   [marketplace |-> "m2", gpu |-> "g2", id |-> 2] }
 /\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolution_requested"] ]
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-25: <CompleteJobFailure line 80, col 3 to line 86, col 28 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
+14: <CompleteJobSuccess line 70, col 3 to line 76, col 28 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
 /\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "escalated"] ]
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolved"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-26: <ManualIntervention("m2","g2") line 98, col 3 to line 102, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
+15: <RecoverToHealthy("m2","g2") line 90, col 3 to line 94, col 51 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
 /\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
+  m2 |-> [g1 |-> "healthy", g2 |-> "healthy"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-27: <DetectError("m1","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "error_detected"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
+16: <DetectError("m2","g2") line 40, col 3 to line 44, col 51 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "error_detected"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-28: <RequestResolution("m1","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 2]}
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
-/\ jobQueue = <<[marketplace |-> "m1", gpu |-> "g2"]>>
+17: <RequestResolution("m2","g2") line 48, col 3 to line 53, col 41 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = {[marketplace |-> "m1", gpu |-> "g1", id |-> 1]}
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
+/\ jobQueue = <<[marketplace |-> "m2", gpu |-> "g2"]>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
-29: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
-/\ jobResults = <<"success", "failure">>
-/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 2],
-  [marketplace |-> "m1", gpu |-> "g2", id |-> 2] }
-/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "resolution_requested"],
-  m2 |-> [g1 |-> "error_detected", g2 |-> "resolved"] ]
+18: <ScheduleJob line 57, col 3 to line 66, col 40 of module EDRV2>
+/\ jobResults = (2 :> "failure")
+/\ activeJobs = { [marketplace |-> "m1", gpu |-> "g1", id |-> 1],
+  [marketplace |-> "m2", gpu |-> "g2", id |-> 2] }
+/\ gpuStatus = [ m1 |-> [g1 |-> "resolution_requested", g2 |-> "healthy"],
+  m2 |-> [g1 |-> "healthy", g2 |-> "resolution_requested"] ]
 /\ jobQueue = <<>>
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2122:4 @!@!@
-13: Back to state: <CompleteJobFailure line 80, col 3 to line 86, col 28 of module EDRV2>
+8: Back to state: <CompleteJobFailure line 80, col 3 to line 86, col 28 of module EDRV2>
 
 @!@!@ENDMSG 2122 @!@!@
 @!@!@STARTMSG 2267:0 @!@!@
-Finished checking temporal properties in 00s at 2025-05-04 04:03:16
+Finished checking temporal properties in 12s at 2025-05-04 04:40:16
 @!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2025-05-04 04:03:16
+The coverage statistics at 2025-05-04 04:40:16
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2773:0 @!@!@
 <Init line 30, col 1 to line 30, col 4 of module EDRV2>: 2:2
@@ -358,247 +255,247 @@ The coverage statistics at 2025-05-04 04:03:16
   ||line 34, col 27 to line 34, col 28 of module EDRV2: 2:2
 @!@!@ENDMSG 2775 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<DetectError line 39, col 1 to line 39, col 17 of module EDRV2>: 789:9662
+<DetectError line 39, col 1 to line 39, col 17 of module EDRV2>: 789:9680
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 40, col 6 to line 40, col 23 of module EDRV2: 78798
+  line 40, col 6 to line 40, col 23 of module EDRV2: 78786
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 40, col 6 to line 40, col 6 of module EDRV2: 69136
+  |line 40, col 6 to line 40, col 6 of module EDRV2: 69106
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 40, col 12 to line 40, col 23 of module EDRV2: 69136
+  |line 40, col 12 to line 40, col 23 of module EDRV2: 69106
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 41, col 6 to line 41, col 15 of module EDRV2: 78798
+  line 41, col 6 to line 41, col 15 of module EDRV2: 78786
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 41, col 6 to line 41, col 6 of module EDRV2: 69136
+  |line 41, col 6 to line 41, col 6 of module EDRV2: 69106
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 41, col 12 to line 41, col 15 of module EDRV2: 69136
+  |line 41, col 12 to line 41, col 15 of module EDRV2: 69106
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 42, col 6 to line 42, col 32 of module EDRV2: 78798
+  line 42, col 6 to line 42, col 32 of module EDRV2: 78786
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 42, col 6 to line 42, col 20 of module EDRV2: 69136
+  |line 42, col 6 to line 42, col 20 of module EDRV2: 69106
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 43, col 6 to line 43, col 63 of module EDRV2: 9662
+  line 43, col 6 to line 43, col 63 of module EDRV2: 9680
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 44, col 6 to line 44, col 51 of module EDRV2: 9662
+  line 44, col 6 to line 44, col 51 of module EDRV2: 9680
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RequestResolution line 47, col 1 to line 47, col 23 of module EDRV2>: 1545:9472
+<RequestResolution line 47, col 1 to line 47, col 23 of module EDRV2>: 1545:9449
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 48, col 6 to line 48, col 23 of module EDRV2: 78601
+  line 48, col 6 to line 48, col 23 of module EDRV2: 78551
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 48, col 6 to line 48, col 6 of module EDRV2: 69129
+  |line 48, col 6 to line 48, col 6 of module EDRV2: 69102
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 48, col 12 to line 48, col 23 of module EDRV2: 69129
+  |line 48, col 12 to line 48, col 23 of module EDRV2: 69102
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 49, col 6 to line 49, col 15 of module EDRV2: 78601
+  line 49, col 6 to line 49, col 15 of module EDRV2: 78551
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 49, col 6 to line 49, col 6 of module EDRV2: 69129
+  |line 49, col 6 to line 49, col 6 of module EDRV2: 69102
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 49, col 12 to line 49, col 15 of module EDRV2: 69129
+  |line 49, col 12 to line 49, col 15 of module EDRV2: 69102
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 50, col 6 to line 50, col 39 of module EDRV2: 78601
+  line 50, col 6 to line 50, col 39 of module EDRV2: 78551
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 50, col 6 to line 50, col 20 of module EDRV2: 69129
+  |line 50, col 6 to line 50, col 20 of module EDRV2: 69102
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 51, col 6 to line 51, col 69 of module EDRV2: 9472
+  line 51, col 6 to line 51, col 69 of module EDRV2: 9449
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 52, col 6 to line 52, col 65 of module EDRV2: 9472
+  line 52, col 6 to line 52, col 65 of module EDRV2: 9449
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 53, col 6 to line 53, col 41 of module EDRV2: 9472
+  line 53, col 6 to line 53, col 41 of module EDRV2: 9449
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<ScheduleJob line 56, col 1 to line 56, col 11 of module EDRV2>: 6166:8454
+<ScheduleJob line 56, col 1 to line 56, col 11 of module EDRV2>: 6166:8452
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 57, col 6 to line 57, col 22 of module EDRV2: 25725
+  line 57, col 6 to line 57, col 22 of module EDRV2: 25719
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 57, col 6 to line 57, col 13 of module EDRV2: 17271
+  |line 57, col 6 to line 57, col 13 of module EDRV2: 17267
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 57, col 18 to line 57, col 22 of module EDRV2: 17271
+  |line 57, col 18 to line 57, col 22 of module EDRV2: 17267
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 58, col 6 to line 58, col 48 of module EDRV2: 8454
+  line 58, col 6 to line 58, col 48 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 58, col 6 to line 58, col 28 of module EDRV2: 9847
+  |line 58, col 6 to line 58, col 28 of module EDRV2: 9844
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 58, col 32 to line 58, col 48 of module EDRV2: 9847
+  |line 58, col 32 to line 58, col 48 of module EDRV2: 9844
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 62, col 11 to line 64, col 65 of module EDRV2: 8454
+  line 62, col 11 to line 64, col 65 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 62, col 25 to line 64, col 65 of module EDRV2: 8454
+  |line 62, col 25 to line 64, col 65 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  ||line 62, col 25 to line 62, col 34 of module EDRV2: 8454
+  ||line 62, col 25 to line 62, col 34 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2775:0 @!@!@
-  ||line 62, col 43 to line 64, col 65 of module EDRV2: 8454:1765582
+  ||line 62, col 43 to line 64, col 65 of module EDRV2: 8452:1765578
 @!@!@ENDMSG 2775 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |||line 62, col 44 to line 64, col 64 of module EDRV2: 8454
+  |||line 62, col 44 to line 64, col 64 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 65, col 11 to line 65, col 36 of module EDRV2: 8454
+  line 65, col 11 to line 65, col 36 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 66, col 6 to line 66, col 40 of module EDRV2: 8454
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2772:0 @!@!@
-<CompleteJobSuccess line 69, col 1 to line 69, col 18 of module EDRV2>: 1919:15482
-@!@!@ENDMSG 2772 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 70, col 6 to line 70, col 21 of module EDRV2: 29190
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |line 70, col 6 to line 70, col 15 of module EDRV2: 17265
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |line 70, col 20 to line 70, col 21 of module EDRV2: 17265
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 72, col 11 to line 72, col 70 of module EDRV2: 30964
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |line 72, col 11 to line 72, col 45 of module EDRV2: 15482
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 73, col 11 to line 73, col 82 of module EDRV2: 15482
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 74, col 11 to line 74, col 59 of module EDRV2: 15482
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 75, col 11 to line 75, col 42 of module EDRV2: 15482
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 76, col 11 to line 76, col 28 of module EDRV2: 15482
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 71, col 17 to line 71, col 26 of module EDRV2: 11925
+  line 66, col 6 to line 66, col 40 of module EDRV2: 8452
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<CompleteJobFailure line 79, col 1 to line 79, col 18 of module EDRV2>: 4177:15478
+<CompleteJobSuccess line 69, col 1 to line 69, col 18 of module EDRV2>: 1919:15478
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 80, col 6 to line 80, col 21 of module EDRV2: 29186
+  line 70, col 6 to line 70, col 21 of module EDRV2: 29186
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 80, col 6 to line 80, col 15 of module EDRV2: 17263
+  |line 70, col 6 to line 70, col 15 of module EDRV2: 17263
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 80, col 20 to line 80, col 21 of module EDRV2: 17263
+  |line 70, col 20 to line 70, col 21 of module EDRV2: 17263
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 82, col 11 to line 82, col 70 of module EDRV2: 30956
+  line 72, col 11 to line 72, col 70 of module EDRV2: 30956
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 82, col 11 to line 82, col 45 of module EDRV2: 15478
+  |line 72, col 11 to line 72, col 45 of module EDRV2: 15478
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 83, col 11 to line 83, col 83 of module EDRV2: 15478
+  line 73, col 11 to line 73, col 82 of module EDRV2: 15478
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 84, col 11 to line 84, col 59 of module EDRV2: 15478
+  line 74, col 11 to line 74, col 59 of module EDRV2: 15478
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 85, col 11 to line 85, col 42 of module EDRV2: 15478
+  line 75, col 11 to line 75, col 42 of module EDRV2: 15478
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 86, col 11 to line 86, col 28 of module EDRV2: 15478
+  line 76, col 11 to line 76, col 28 of module EDRV2: 15478
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 81, col 17 to line 81, col 26 of module EDRV2: 11923
+  line 71, col 17 to line 71, col 26 of module EDRV2: 11923
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<RecoverToHealthy line 89, col 1 to line 89, col 22 of module EDRV2>: 801:9166
+<CompleteJobFailure line 79, col 1 to line 79, col 18 of module EDRV2>: 4177:15476
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 90, col 6 to line 90, col 23 of module EDRV2: 78289
+  line 80, col 6 to line 80, col 21 of module EDRV2: 29184
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 90, col 6 to line 90, col 6 of module EDRV2: 69123
+  |line 80, col 6 to line 80, col 15 of module EDRV2: 17262
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 90, col 12 to line 90, col 23 of module EDRV2: 69123
+  |line 80, col 20 to line 80, col 21 of module EDRV2: 17262
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 91, col 6 to line 91, col 15 of module EDRV2: 78289
+  line 82, col 11 to line 82, col 70 of module EDRV2: 30952
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 91, col 6 to line 91, col 6 of module EDRV2: 69123
+  |line 82, col 11 to line 82, col 45 of module EDRV2: 15476
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 91, col 12 to line 91, col 15 of module EDRV2: 69123
+  line 83, col 11 to line 83, col 83 of module EDRV2: 15476
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 92, col 6 to line 92, col 33 of module EDRV2: 78289
+  line 84, col 11 to line 84, col 59 of module EDRV2: 15476
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 92, col 6 to line 92, col 20 of module EDRV2: 69123
+  line 85, col 11 to line 85, col 42 of module EDRV2: 15476
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 93, col 6 to line 93, col 56 of module EDRV2: 9166
+  line 86, col 11 to line 86, col 28 of module EDRV2: 15476
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 94, col 6 to line 94, col 51 of module EDRV2: 9166
+  line 81, col 17 to line 81, col 26 of module EDRV2: 11922
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<ManualIntervention line 97, col 1 to line 97, col 24 of module EDRV2>: 1370:9187
+<RecoverToHealthy line 89, col 1 to line 89, col 22 of module EDRV2>: 801:9158
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 98, col 6 to line 98, col 23 of module EDRV2: 78307
+  line 90, col 6 to line 90, col 23 of module EDRV2: 78256
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 98, col 6 to line 98, col 6 of module EDRV2: 69120
+  |line 90, col 6 to line 90, col 6 of module EDRV2: 69098
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 98, col 12 to line 98, col 23 of module EDRV2: 69120
+  |line 90, col 12 to line 90, col 23 of module EDRV2: 69098
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 99, col 6 to line 99, col 15 of module EDRV2: 78307
+  line 91, col 6 to line 91, col 15 of module EDRV2: 78256
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 99, col 6 to line 99, col 6 of module EDRV2: 69120
+  |line 91, col 6 to line 91, col 6 of module EDRV2: 69098
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 99, col 12 to line 99, col 15 of module EDRV2: 69120
+  |line 91, col 12 to line 91, col 15 of module EDRV2: 69098
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 100, col 6 to line 100, col 34 of module EDRV2: 78307
+  line 92, col 6 to line 92, col 33 of module EDRV2: 78256
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 100, col 6 to line 100, col 20 of module EDRV2: 69120
+  |line 92, col 6 to line 92, col 20 of module EDRV2: 69098
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 101, col 6 to line 101, col 57 of module EDRV2: 9187
+  line 93, col 6 to line 93, col 56 of module EDRV2: 9158
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 102, col 6 to line 102, col 51 of module EDRV2: 9187
+  line 94, col 6 to line 94, col 51 of module EDRV2: 9158
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ManualIntervention line 97, col 1 to line 97, col 24 of module EDRV2>: 1370:9185
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 6 to line 98, col 23 of module EDRV2: 78281
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 98, col 6 to line 98, col 6 of module EDRV2: 69096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 98, col 12 to line 98, col 23 of module EDRV2: 69096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 6 to line 99, col 15 of module EDRV2: 78281
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 99, col 6 to line 99, col 6 of module EDRV2: 69096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 99, col 12 to line 99, col 15 of module EDRV2: 69096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 6 to line 100, col 34 of module EDRV2: 78281
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 100, col 6 to line 100, col 20 of module EDRV2: 69096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 6 to line 101, col 57 of module EDRV2: 9185
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 6 to line 102, col 51 of module EDRV2: 9185
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2774:0 @!@!@
 <TypeInvariant line 22, col 1 to line 22, col 13 of module EDRV2>
@@ -639,11 +536,12 @@ The coverage statistics at 2025-05-04 04:03:16
 @!@!@STARTMSG 2221:0 @!@!@
   line 137, col 26 to line 137, col 69 of module EDRV2: 16768
 @!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2202:0 @!@!@
-End of statistics.
-@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2777:0 @!@!@
+End of statistics (please note that for performance reasons large models
+are best checked with coverage and cost statistics disabled).
+@!@!@ENDMSG 2777 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(27) at 2025-05-04 04:03:16: 75,537 states generated (100,296 s/min), 16,768 distinct states found (22,264 ds/min), 0 states left on queue.
+Progress(27) at 2025-05-04 04:40:16: 75,537 states generated (9,949 s/min), 16,768 distinct states found (2,208 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 75537 states generated, 16768 distinct states found, 0 states left on queue.
@@ -652,5 +550,5 @@ Progress(27) at 2025-05-04 04:03:16: 75,537 states generated (100,296 s/min), 16
 The depth of the complete state graph search is 27.
 @!@!@ENDMSG 2194 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 45194ms at (2025-05-04 04:03:16)
+Finished in 455532ms at (2025-05-04 04:40:16)
 @!@!@ENDMSG 2186 @!@!@

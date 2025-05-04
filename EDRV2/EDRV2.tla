@@ -161,12 +161,12 @@ EscalatedEventuallyResolved ==
 \* Add fairness conditions for liveness properties to hold
 Fairness ==
   /\ \A m \in Marketplaces, g \in GPUs:
-      /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(RequestResolution(m, g))
-      /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(RecoverToHealthy(m, g))
-      /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(ManualIntervention(m, g))
-  /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(ScheduleJob)
-  /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(CompleteJobSuccess)
-  /\ WF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(CompleteJobFailure)
+      /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(RequestResolution(m, g))
+      /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(RecoverToHealthy(m, g))
+      /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(ManualIntervention(m, g))
+  /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(ScheduleJob)
+  /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(CompleteJobSuccess)
+  /\ SF_<<gpuStatus, jobQueue, activeJobs, jobResults>>(CompleteJobFailure)
 
 \* Complete specification
 Spec ==
