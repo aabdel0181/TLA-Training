@@ -1,16 +1,16 @@
 @!@!@STARTMSG 2262:0 @!@!@
-TLC2 Version 2.20 of Day Month 20?? (rev: 416d6e5)
+TLC2 Version 2.20 of Day Month 20?? (rev: 21974dc)
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 14 and seed 6244184307033642656 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 12972] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 32 and seed -2179872434660343506 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 28040] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
 Parsing file D:\Ahmed\Documents\TLA-Training\EDR\EDR.tla (file:/d:/Ahmed/Documents/TLA-Training/EDR/EDR.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-7441983755133547972\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.292117/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-7441983755133547972\FiniteSets.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.292117/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-7441983755133547972\Sequences.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.292117/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-17127567510140837892\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-17127567510140837892\FiniteSets.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-17127567510140837892\Sequences.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.5.22145/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -19,219 +19,182 @@ Semantic processing of module EDR
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2025-05-01 13:07:13)
+Starting... (2025-05-04 02:56:34)
 @!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 4 branches.
+@!@!@ENDMSG 2212 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 2 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 4 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 8 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 16 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 32 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 64 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 128 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 256 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 512 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 1024 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 2048 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 4096 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 8192 initial states...
-@!@!@ENDMSG 2269 @!@!@
-@!@!@STARTMSG 2269:0 @!@!@
-Computed 16384 initial states...
-@!@!@ENDMSG 2269 @!@!@
 @!@!@STARTMSG 2190:0 @!@!@
-Finished computing initial states: 18225 distinct states generated at 2025-05-01 13:07:14.
+Finished computing initial states: 1 distinct state generated at 2025-05-04 02:56:35.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(3) at 2025-05-01 13:07:17: 225,181 states generated (225,181 s/min), 146,630 distinct states found (146,630 ds/min), 100,502 states left on queue.
+Progress(13) at 2025-05-04 02:56:35: 2,001 states generated, 625 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 4 branches of temporal properties for the complete state space with 2500 total distinct states at (2025-05-04 02:56:35)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2025-05-04 02:56:35
+@!@!@ENDMSG 2267 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
-  calculated (optimistic):  val = 6.5E-8
-  based on the actual fingerprints:  val = 9.0E-9
+  calculated (optimistic):  val = 4.7E-14
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2025-05-01 13:07:38
+The coverage statistics at 2025-05-04 02:56:35
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2773:0 @!@!@
-<Init line 21, col 1 to line 21, col 4 of module EDR>: 18225:18225
+<Init line 17, col 1 to line 17, col 4 of module EDR>: 1:1
 @!@!@ENDMSG 2773 @!@!@
-@!@!@STARTMSG 2775:0 @!@!@
-  line 22, col 20 to line 22, col 81 of module EDR: 1:2
-@!@!@ENDMSG 2775 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 22, col 27 to line 22, col 43 of module EDR: 1
+  line 18, col 8 to line 18, col 81 of module EDR: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2775:0 @!@!@
-  line 23, col 20 to line 23, col 45 of module EDR: 1:324
+  |line 18, col 20 to line 18, col 81 of module EDR: 1:2
 @!@!@ENDMSG 2775 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 23, col 21 to line 23, col 30 of module EDR: 1
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |line 23, col 35 to line 23, col 44 of module EDR: 1
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 25, col 8 to line 27, col 55 of module EDR: 18225
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2775:0 @!@!@
-  |line 26, col 9 to line 27, col 55 of module EDR: 81:20736
-@!@!@ENDMSG 2775 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  ||line 27, col 13 to line 27, col 54 of module EDR: 20736
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |||line 27, col 42 to line 27, col 54 of module EDR: 40176
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |||line 27, col 22 to line 27, col 38 of module EDR: 20736
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2775:0 @!@!@
-  ||line 26, col 20 to line 26, col 59 of module EDR: 81:41472
-@!@!@ENDMSG 2775 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |||line 26, col 21 to line 26, col 37 of module EDR: 81
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2775:0 @!@!@
-  |||line 26, col 42 to line 26, col 58 of module EDR: 81:114210
-@!@!@ENDMSG 2775 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  ||||line 26, col 49 to line 26, col 58 of module EDR: 81
+  ||line 18, col 27 to line 18, col 43 of module EDR: 1
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<DetectError line 29, col 1 to line 29, col 17 of module EDR>: 500175:1399680
+<DetectError line 22, col 1 to line 22, col 17 of module EDR>: 156:512
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 30, col 8 to line 30, col 30 of module EDR: 5546880
+  line 23, col 8 to line 23, col 30 of module EDR: 3028
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 30, col 8 to line 30, col 8 of module EDR: 4147200
+  |line 23, col 8 to line 23, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 30, col 14 to line 30, col 30 of module EDR: 4147200
+  |line 23, col 14 to line 23, col 30 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 31, col 8 to line 31, col 23 of module EDR: 5546880
+  line 24, col 8 to line 24, col 23 of module EDR: 3028
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 31, col 8 to line 31, col 8 of module EDR: 4147200
+  |line 24, col 8 to line 24, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 31, col 14 to line 31, col 23 of module EDR: 4147200
+  |line 24, col 14 to line 24, col 23 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 32, col 8 to line 32, col 30 of module EDR: 5546880
+  line 25, col 8 to line 25, col 34 of module EDR: 3028
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 32, col 8 to line 32, col 8 of module EDR: 4147200
+  |line 25, col 8 to line 25, col 22 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 32, col 14 to line 32, col 30 of module EDR: 4147200
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 33, col 8 to line 33, col 34 of module EDR: 4199040
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  |line 33, col 8 to line 33, col 22 of module EDR: 2799360
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 34, col 8 to line 34, col 65 of module EDR: 1399680
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 35, col 8 to line 35, col 44 of module EDR: 1399680
+  line 26, col 8 to line 26, col 65 of module EDR: 512
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2772:0 @!@!@
-<ResolveError line 37, col 1 to line 37, col 18 of module EDR>: 0:1399680
+<RequestResolution line 28, col 1 to line 28, col 23 of module EDR>: 156:504
 @!@!@ENDMSG 2772 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 38, col 8 to line 38, col 30 of module EDR: 5546880
+  line 29, col 8 to line 29, col 30 of module EDR: 3020
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 38, col 8 to line 38, col 8 of module EDR: 4147200
+  |line 29, col 8 to line 29, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 38, col 14 to line 38, col 30 of module EDR: 4147200
+  |line 29, col 14 to line 29, col 30 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 39, col 8 to line 39, col 23 of module EDR: 5546880
+  line 30, col 8 to line 30, col 23 of module EDR: 3020
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 39, col 8 to line 39, col 8 of module EDR: 4147200
+  |line 30, col 8 to line 30, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 39, col 14 to line 39, col 23 of module EDR: 4147200
+  |line 30, col 14 to line 30, col 23 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 40, col 8 to line 40, col 30 of module EDR: 5546880
+  line 31, col 8 to line 31, col 41 of module EDR: 3020
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 40, col 8 to line 40, col 8 of module EDR: 4147200
+  |line 31, col 8 to line 31, col 22 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 40, col 14 to line 40, col 30 of module EDR: 4147200
+  line 32, col 8 to line 32, col 71 of module EDR: 504
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ResolveError line 34, col 1 to line 34, col 18 of module EDR>: 156:500
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 8 to line 35, col 30 of module EDR: 3016
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 41, col 8 to line 41, col 41 of module EDR: 4199040
+  |line 35, col 8 to line 35, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  |line 41, col 8 to line 41, col 22 of module EDR: 2799360
+  |line 35, col 14 to line 35, col 30 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 42, col 8 to line 42, col 58 of module EDR: 1399680
+  line 36, col 8 to line 36, col 23 of module EDR: 3016
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 43, col 8 to line 43, col 44 of module EDR: 1399680
+  |line 36, col 8 to line 36, col 8 of module EDR: 2516
 @!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2774:0 @!@!@
-<TypeInvariant line 16, col 1 to line 16, col 13 of module EDR>
-@!@!@ENDMSG 2774 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 17, col 5 to line 19, col 66 of module EDR: 518400
+  |line 36, col 14 to line 36, col 23 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 8 to line 37, col 47 of module EDR: 3016
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 37, col 8 to line 37, col 22 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 8 to line 38, col 59 of module EDR: 500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<EscalateError line 46, col 1 to line 46, col 19 of module EDR>: 156:500
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 8 to line 47, col 30 of module EDR: 3016
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 47, col 8 to line 47, col 8 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 47, col 14 to line 47, col 30 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 8 to line 48, col 23 of module EDR: 3016
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 48, col 8 to line 48, col 8 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 48, col 14 to line 48, col 23 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 8 to line 49, col 47 of module EDR: 3016
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 49, col 8 to line 49, col 22 of module EDR: 2516
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 8 to line 50, col 60 of module EDR: 500
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(9) at 2025-05-01 13:07:38: 2,817,585 states generated (6,757,338 s/min), 518,400 distinct states found (1,243,264 ds/min), 0 states left on queue.
+Progress(13) at 2025-05-04 02:56:35: 2,001 states generated (80,794 s/min), 625 distinct states found (25,235 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
-2817585 states generated, 518400 distinct states found, 0 states left on queue.
+2001 states generated, 625 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2199 @!@!@
 @!@!@STARTMSG 2194:0 @!@!@
-The depth of the complete state graph search is 9.
+The depth of the complete state graph search is 13.
 @!@!@ENDMSG 2194 @!@!@
 @!@!@STARTMSG 2268:0 @!@!@
-The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 8 and the 95th percentile is 4).
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 5 and the 95th percentile is 3).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 25073ms at (2025-05-01 13:07:38)
+Finished in 1494ms at (2025-05-04 02:56:35)
 @!@!@ENDMSG 2186 @!@!@
