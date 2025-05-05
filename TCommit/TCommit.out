@@ -1,17 +1,17 @@
 @!@!@STARTMSG 2262:0 @!@!@
-TLC2 Version 2.20 of Day Month 20?? (rev: 789535d)
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 86 and seed -241350785906154830 with 1 worker on 16 cores with 9040MB heap and 64MB offheap memory [pid: 304] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Running breadth-first search Model-Checking with fp 119 and seed -3774975551182514926 with 16 workers on 16 cores with 9040MB heap and 64MB offheap memory [pid: 14272] (Windows 10 10.0 amd64, Oracle Corporation 24.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
-Parsing file D:\Ahmed\Documents\TLA-Training\TCommit\TCommit.tla (file:/d:/Ahmed/Documents/TLA-Training/TCommit/TCommit.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-16760391949636298996\TLC.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.282349/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-16760391949636298996\Naturals.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.282349/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-16760391949636298996\Sequences.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.282349/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
-Parsing file C:\Users\Ahmed\AppData\Local\Temp\tlc-16760391949636298996\FiniteSets.tla (jar:file:/C:/Users/Ahmed/.vscode/extensions/tlaplus.vscode-ide-2025.4.282349/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file D:\Ahmed\Documents\TLA-Training\TCommit\TCommit.tla
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\TLC.tla
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\Naturals.tla
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\Sequences.tla
+Parsing file C:\Users\Ahmed\AppData\Local\Temp\FiniteSets.tla
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -21,11 +21,131 @@ Semantic processing of module TCommit
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2025-04-29 17:06:18)
+Starting... (2025-05-05 17:29:52)
 @!@!@ENDMSG 2185 @!@!@
-@!@!@STARTMSG 2222:1 @!@!@
-The constant parameter RM is not assigned a value by the configuration file.
-@!@!@ENDMSG 2222 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2025-05-05 17:29:52.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-16
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2025-05-05 17:29:52
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<TCInit line 18, col 1 to line 18, col 6 of module TCommit>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 18, col 13 to line 18, col 46 of module TCommit: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Prepare line 38, col 1 to line 38, col 10 of module TCommit>: 13:27
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 18 to line 38, col 39 of module TCommit: 129
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 18 to line 38, col 27 of module TCommit: 102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 18 to line 39, col 62 of module TCommit: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Decide line 41, col 1 to line 41, col 9 of module TCommit (41 18 43 66)>: 7:12
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 21 to line 41, col 43 of module TCommit: 114
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 41, col 21 to line 41, col 30 of module TCommit: 102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 28 to line 23, col 67 of module TCommit: 112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 23, col 28 to line 23, col 37 of module TCommit: 76
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 23, col 43 to line 23, col 67 of module TCommit: 76
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 23 to line 23, col 24 of module TCommit: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 21 to line 43, col 66 of module TCommit: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Decide line 41, col 1 to line 41, col 9 of module TCommit (44 18 46 64)>: 13:54
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 44, col 21 to line 44, col 58 of module TCommit: 156
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 44, col 21 to line 44, col 30 of module TCommit: 102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 44, col 36 to line 44, col 58 of module TCommit: 102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 28, col 31 to line 28, col 54 of module TCommit: 340
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 28, col 31 to line 28, col 40 of module TCommit: 178
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 28, col 26 to line 28, col 27 of module TCommit: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 21 to line 46, col 64 of module TCommit: 54
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TCTypeOK line 12, col 1 to line 12, col 8 of module TCommit>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 3 to line 16, col 69 of module TCommit: 34
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TCConsistent line 53, col 1 to line 53, col 12 of module TCommit>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 3 to line 59, col 51 of module TCommit: 34
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 58, col 22 to line 59, col 51 of module TCommit: 306
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 58, col 24 to line 59, col 51 of module TCommit: 306
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 58, col 27 to line 58, col 49 of module TCommit: 306
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 59, col 27 to line 59, col 51 of module TCommit: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 58, col 17 to line 58, col 18 of module TCommit: 34
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(7) at 2025-05-05 17:29:52: 94 states generated (12,876 s/min), 34 distinct states found (4,657 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+94 states generated, 34 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 7.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 4).
+@!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 273ms at (2025-04-29 17:06:18)
+Finished in 444ms at (2025-05-05 17:29:52)
 @!@!@ENDMSG 2186 @!@!@
